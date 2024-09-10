@@ -20,19 +20,20 @@ let user = {
     skills : ["comuniccation" , "Adaptive" , "Time Mangment"]
 }
 
-// console.log(user)
-// console.log(user.name)
-// user.id = 25
-// console.log(user.age)
+console.log(user)
+console.log(user.name)
+user.id = 25
+console.log(user.age)
 delete user.email
-// console.log(user)
-// console.log(user.check())
+console.log(user)
+console.log(user.check())
 
-// console.log(user.address)
-// console.log(user.address.city.first)
+console.log(user.address)
+console.log(user.address.city.first)
 
-// console.log(user.skills[2])
-console.log(user.skills.splice(""))
+console.log(user.skills[2])
+console.log(user.skills.join(""))
+// console.log(user.skills.splice(""))
 
 
 
